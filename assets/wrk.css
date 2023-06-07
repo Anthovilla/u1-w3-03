@@ -21,12 +21,14 @@ body {
   }
   
   h1 {
+    margin-top: 0;
+    font-size: 45px;
     text-align: center;
     color:rgb(36, 134, 102)
   }
 
   form {
-    display: flex
+    display: flex;
   }
 
   .search {
@@ -39,4 +41,46 @@ body {
     padding: 15px 10px;
     outline: none;
     width: 400px;
+    border-radius: 5px;
   }
+
+  form button {
+    border-radius: 5px;
+  }
+  form button:hover{
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .list-container {
+    width: 200px;
+    margin: 5px auto;
+  }
+  .task-continer {
+    background-color: rgb(153, 200, 241);
+    margin-bottom:  7px;
+    padding: 17px ;
+    border-radius: 7px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+
+  .empty {
+    margin-top: 25px;
+    font-size: 1.1em;
+    text-align: center;
+    color: brown;
+    font-weight: 1000;
+  }
+
+i {
+margin: 3% 0 ;
+}
+i:hover{
+    cursor: pointer
+}
